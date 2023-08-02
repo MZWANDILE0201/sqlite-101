@@ -1,6 +1,6 @@
 
 import express from 'express'
-import {getGreetings, addGreetings} from './db.js'
+import {getGreetings, addGreeting} from './db.js'
 console.log('start')
 
 const app = express();
